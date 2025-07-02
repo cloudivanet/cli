@@ -177,13 +177,13 @@ export default class Deploy extends Command {
         upload_response.success = true;
         upload_response.message = "Deployment finished successfully.";
       } else {
-        if (process.env.CHABOK_DEBUG == "true") {
+        if (process.env.DIVA_DEBUG == "true") {
           cli.log(response);
         }
       }
       return upload_response;
     } catch (error) {
-      if (process.env.CHABOK_DEBUG == "true") {
+      if (process.env.DIVA_DEBUG == "true") {
         cli.log(error);
       }
       return upload_response;

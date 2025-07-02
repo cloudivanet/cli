@@ -18,7 +18,7 @@ $ npm install -g @cloudiva.net/cli
 $ diva COMMAND
 running command...
 $ diva (--version|-v)
-@cloudiva.net/cli/0.8.10 darwin-arm64 node-v20.13.1
+@cloudiva.net/cli/0.8.11 darwin-arm64 node-v20.13.1
 $ diva --help [COMMAND]
 USAGE
   $ diva COMMAND
@@ -67,7 +67,7 @@ DESCRIPTION
   show accounts list
 ```
 
-_See code: [src/commands/account/list.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/account/list.ts)_
+_See code: [src/commands/account/list.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/account/list.ts)_
 
 ## `diva account remove`
 
@@ -84,7 +84,7 @@ DESCRIPTION
   remove account from list
 ```
 
-_See code: [src/commands/account/remove.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/account/remove.ts)_
+_See code: [src/commands/account/remove.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/account/remove.ts)_
 
 ## `diva account use`
 
@@ -102,7 +102,7 @@ DESCRIPTION
   switch your default user between logged in users
 ```
 
-_See code: [src/commands/account/use.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/account/use.ts)_
+_See code: [src/commands/account/use.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/account/use.ts)_
 
 ## `diva autocomplete [SHELL]`
 
@@ -152,7 +152,7 @@ DESCRIPTION
   this command help you build and deploy your service to cloudiva in easy way.
 ```
 
-_See code: [src/commands/deploy.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/deploy.ts)_
+_See code: [src/commands/deploy.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/deploy.ts)_
 
 ## `diva help [COMMAND]`
 
@@ -192,7 +192,7 @@ DESCRIPTION
   login to account
 ```
 
-_See code: [src/commands/login.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/login.ts)_
+_See code: [src/commands/login.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/login.ts)_
 
 ## `diva plugins`
 
@@ -499,7 +499,7 @@ DESCRIPTION
   show account services list
 ```
 
-_See code: [src/commands/service/list.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/list.ts)_
+_See code: [src/commands/service/list.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/service/list.ts)_
 
 ## `diva service logs`
 
@@ -517,7 +517,7 @@ DESCRIPTION
   read latest logs from service
 ```
 
-_See code: [src/commands/service/logs.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/logs.ts)_
+_See code: [src/commands/service/logs.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/service/logs.ts)_
 
 ## `diva service resize`
 
@@ -538,7 +538,7 @@ DESCRIPTION
   resize a service
 ```
 
-_See code: [src/commands/service/resize.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/resize.ts)_
+_See code: [src/commands/service/resize.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/service/resize.ts)_
 
 ## `diva service restart`
 
@@ -556,7 +556,7 @@ DESCRIPTION
   restart a service
 ```
 
-_See code: [src/commands/service/restart.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/restart.ts)_
+_See code: [src/commands/service/restart.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/service/restart.ts)_
 
 ## `diva service start`
 
@@ -574,7 +574,7 @@ DESCRIPTION
   start a service
 ```
 
-_See code: [src/commands/service/start.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/start.ts)_
+_See code: [src/commands/service/start.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/service/start.ts)_
 
 ## `diva service stop`
 
@@ -592,7 +592,7 @@ DESCRIPTION
   stop a service
 ```
 
-_See code: [src/commands/service/stop.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/stop.ts)_
+_See code: [src/commands/service/stop.ts](https://github.com/cloudivanet/cli/blob/v0.8.11/src/commands/service/stop.ts)_
 
 ## `diva version`
 

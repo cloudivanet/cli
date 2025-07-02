@@ -1,6 +1,6 @@
 {
  "name": "@cloudiva.net/cli",
- "version": "0.8.10",
+ "version": "0.8.11",
  "description": "Cloudiva Cli for PaaS Services",
  "author": "Mohammad Abdi",
  "bin": {

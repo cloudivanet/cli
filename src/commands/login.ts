@@ -82,7 +82,7 @@ export default class Login extends Command {
         await this.write_config(config_json);
         cli.log(`${chalk.green('[Success]')} you are logged in successfully.`)
       } catch (e) {
-        if (process.env.CHABOK_DEBUG == "true") {
+        if (process.env.DIVA_DEBUG == "true") {
           // @ts-ignore
           cli.log(e);
         }
