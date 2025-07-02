@@ -1,7 +1,5 @@
-chabok
+diva cli
 =================
-
-A new CLI generated with oclif
 
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
@@ -16,51 +14,51 @@ A new CLI generated with oclif
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @chabokan.net/cli
-$ chabok COMMAND
+$ npm install -g @cloudiva.net/cli
+$ diva COMMAND
 running command...
-$ chabok (--version|-v)
-@chabokan.net/cli/0.8.10 darwin-arm64 node-v20.13.1
-$ chabok --help [COMMAND]
+$ diva (--version|-v)
+@cloudiva.net/cli/0.8.10 darwin-arm64 node-v20.13.1
+$ diva --help [COMMAND]
 USAGE
-  $ chabok COMMAND
+  $ diva COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`chabok account list`](#chabok-account-list)
-* [`chabok account remove`](#chabok-account-remove)
-* [`chabok account use`](#chabok-account-use)
-* [`chabok autocomplete [SHELL]`](#chabok-autocomplete-shell)
-* [`chabok deploy`](#chabok-deploy)
-* [`chabok help [COMMAND]`](#chabok-help-command)
-* [`chabok login`](#chabok-login)
-* [`chabok plugins`](#chabok-plugins)
-* [`chabok plugins add PLUGIN`](#chabok-plugins-add-plugin)
-* [`chabok plugins:inspect PLUGIN...`](#chabok-pluginsinspect-plugin)
-* [`chabok plugins install PLUGIN`](#chabok-plugins-install-plugin)
-* [`chabok plugins link PATH`](#chabok-plugins-link-path)
-* [`chabok plugins remove [PLUGIN]`](#chabok-plugins-remove-plugin)
-* [`chabok plugins reset`](#chabok-plugins-reset)
-* [`chabok plugins uninstall [PLUGIN]`](#chabok-plugins-uninstall-plugin)
-* [`chabok plugins unlink [PLUGIN]`](#chabok-plugins-unlink-plugin)
-* [`chabok plugins update`](#chabok-plugins-update)
-* [`chabok service list`](#chabok-service-list)
-* [`chabok service logs`](#chabok-service-logs)
-* [`chabok service resize`](#chabok-service-resize)
-* [`chabok service restart`](#chabok-service-restart)
-* [`chabok service start`](#chabok-service-start)
-* [`chabok service stop`](#chabok-service-stop)
-* [`chabok version`](#chabok-version)
+* [`diva account list`](#diva-account-list)
+* [`diva account remove`](#diva-account-remove)
+* [`diva account use`](#diva-account-use)
+* [`diva autocomplete [SHELL]`](#diva-autocomplete-shell)
+* [`diva deploy`](#diva-deploy)
+* [`diva help [COMMAND]`](#diva-help-command)
+* [`diva login`](#diva-login)
+* [`diva plugins`](#diva-plugins)
+* [`diva plugins add PLUGIN`](#diva-plugins-add-plugin)
+* [`diva plugins:inspect PLUGIN...`](#diva-pluginsinspect-plugin)
+* [`diva plugins install PLUGIN`](#diva-plugins-install-plugin)
+* [`diva plugins link PATH`](#diva-plugins-link-path)
+* [`diva plugins remove [PLUGIN]`](#diva-plugins-remove-plugin)
+* [`diva plugins reset`](#diva-plugins-reset)
+* [`diva plugins uninstall [PLUGIN]`](#diva-plugins-uninstall-plugin)
+* [`diva plugins unlink [PLUGIN]`](#diva-plugins-unlink-plugin)
+* [`diva plugins update`](#diva-plugins-update)
+* [`diva service list`](#diva-service-list)
+* [`diva service logs`](#diva-service-logs)
+* [`diva service resize`](#diva-service-resize)
+* [`diva service restart`](#diva-service-restart)
+* [`diva service start`](#diva-service-start)
+* [`diva service stop`](#diva-service-stop)
+* [`diva version`](#diva-version)
 
-## `chabok account list`
+## `diva account list`
 
 show accounts list
 
 ```
 USAGE
-  $ chabok account list [-h]
+  $ diva account list [-h]
 
 FLAGS
   -h, --help  Show CLI help.
@@ -69,15 +67,15 @@ DESCRIPTION
   show accounts list
 ```
 
-_See code: [src/commands/account/list.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/account/list.ts)_
+_See code: [src/commands/account/list.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/account/list.ts)_
 
-## `chabok account remove`
+## `diva account remove`
 
 remove account from list
 
 ```
 USAGE
-  $ chabok account remove [-h]
+  $ diva account remove [-h]
 
 FLAGS
   -h, --help  Show CLI help.
@@ -86,15 +84,15 @@ DESCRIPTION
   remove account from list
 ```
 
-_See code: [src/commands/account/remove.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/account/remove.ts)_
+_See code: [src/commands/account/remove.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/account/remove.ts)_
 
-## `chabok account use`
+## `diva account use`
 
 switch your default user between logged in users
 
 ```
 USAGE
-  $ chabok account use [-h] [-u <value>]
+  $ diva account use [-h] [-u <value>]
 
 FLAGS
   -h, --help          Show CLI help.
@@ -104,15 +102,15 @@ DESCRIPTION
   switch your default user between logged in users
 ```
 
-_See code: [src/commands/account/use.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/account/use.ts)_
+_See code: [src/commands/account/use.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/account/use.ts)_
 
-## `chabok autocomplete [SHELL]`
+## `diva autocomplete [SHELL]`
 
 Display autocomplete installation instructions.
 
 ```
 USAGE
-  $ chabok autocomplete [SHELL] [-r]
+  $ diva autocomplete [SHELL] [-r]
 
 ARGUMENTS
   SHELL  (zsh|bash|powershell) Shell type
@@ -124,26 +122,26 @@ DESCRIPTION
   Display autocomplete installation instructions.
 
 EXAMPLES
-  $ chabok autocomplete
+  $ diva autocomplete
 
-  $ chabok autocomplete bash
+  $ diva autocomplete bash
 
-  $ chabok autocomplete zsh
+  $ diva autocomplete zsh
 
-  $ chabok autocomplete powershell
+  $ diva autocomplete powershell
 
-  $ chabok autocomplete --refresh-cache
+  $ diva autocomplete --refresh-cache
 ```
 
 _See code: [@oclif/plugin-autocomplete](https://github.com/oclif/plugin-autocomplete/blob/v3.2.31/src/commands/autocomplete/index.ts)_
 
-## `chabok deploy`
+## `diva deploy`
 
-this command help you build and deploy your service to chabokan in easy way.
+this command help you build and deploy your service to cloudiva in easy way.
 
 ```
 USAGE
-  $ chabok deploy [-h] [-p <value>] [-s <value>]
+  $ diva deploy [-h] [-p <value>] [-s <value>]
 
 FLAGS
   -h, --help             Show CLI help.
@@ -151,18 +149,18 @@ FLAGS
   -s, --service=<value>  service name
 
 DESCRIPTION
-  this command help you build and deploy your service to chabokan in easy way.
+  this command help you build and deploy your service to cloudiva in easy way.
 ```
 
-_See code: [src/commands/deploy.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/deploy.ts)_
+_See code: [src/commands/deploy.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/deploy.ts)_
 
-## `chabok help [COMMAND]`
+## `diva help [COMMAND]`
 
-Display help for chabok.
+Display help for diva.
 
 ```
 USAGE
-  $ chabok help [COMMAND...] [-n]
+  $ diva help [COMMAND...] [-n]
 
 ARGUMENTS
   COMMAND...  Command to show help for.
@@ -171,18 +169,18 @@ FLAGS
   -n, --nested-commands  Include all nested commands in the output.
 
 DESCRIPTION
-  Display help for chabok.
+  Display help for diva.
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v6.2.29/src/commands/help.ts)_
 
-## `chabok login`
+## `diva login`
 
-login to hub.chabokan.net account
+login to account
 
 ```
 USAGE
-  $ chabok login [-h] [-u <value>] [-p <value>] [-t <value>]
+  $ diva login [-h] [-u <value>] [-p <value>] [-t <value>]
 
 FLAGS
   -h, --help              Show CLI help.
@@ -191,18 +189,18 @@ FLAGS
   -u, --username=<value>  your username
 
 DESCRIPTION
-  login to hub.chabokan.net account
+  login to account
 ```
 
-_See code: [src/commands/login.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/login.ts)_
+_See code: [src/commands/login.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/login.ts)_
 
-## `chabok plugins`
+## `diva plugins`
 
 List installed plugins.
 
 ```
 USAGE
-  $ chabok plugins [--json] [--core]
+  $ diva plugins [--json] [--core]
 
 FLAGS
   --core  Show core plugins.
@@ -214,18 +212,18 @@ DESCRIPTION
   List installed plugins.
 
 EXAMPLES
-  $ chabok plugins
+  $ diva plugins
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.43/src/commands/plugins/index.ts)_
 
-## `chabok plugins add PLUGIN`
+## `diva plugins add PLUGIN`
 
-Installs a plugin into chabok.
+Installs a plugin into diva.
 
 ```
 USAGE
-  $ chabok plugins add PLUGIN... [--json] [-f] [-h] [-s | -v]
+  $ diva plugins add PLUGIN... [--json] [-f] [-h] [-s | -v]
 
 ARGUMENTS
   PLUGIN...  Plugin to install.
@@ -240,39 +238,39 @@ GLOBAL FLAGS
   --json  Format output as json.
 
 DESCRIPTION
-  Installs a plugin into chabok.
+  Installs a plugin into diva.
 
   Uses npm to install plugins.
 
   Installation of a user-installed plugin will override a core plugin.
 
-  Use the CHABOK_NPM_LOG_LEVEL environment variable to set the npm loglevel.
-  Use the CHABOK_NPM_REGISTRY environment variable to set the npm registry.
+  Use the DIVA_NPM_LOG_LEVEL environment variable to set the npm loglevel.
+  Use the DIVA_NPM_REGISTRY environment variable to set the npm registry.
 
 ALIASES
-  $ chabok plugins add
+  $ diva plugins add
 
 EXAMPLES
   Install a plugin from npm registry.
 
-    $ chabok plugins add myplugin
+    $ diva plugins add myplugin
 
   Install a plugin from a github url.
 
-    $ chabok plugins add https://github.com/someuser/someplugin
+    $ diva plugins add https://github.com/someuser/someplugin
 
   Install a plugin from a github slug.
 
-    $ chabok plugins add someuser/someplugin
+    $ diva plugins add someuser/someplugin
 ```
 
-## `chabok plugins:inspect PLUGIN...`
+## `diva plugins:inspect PLUGIN...`
 
 Displays installation properties of a plugin.
 
 ```
 USAGE
-  $ chabok plugins inspect PLUGIN...
+  $ diva plugins inspect PLUGIN...
 
 ARGUMENTS
   PLUGIN...  [default: .] Plugin to inspect.
@@ -288,18 +286,18 @@ DESCRIPTION
   Displays installation properties of a plugin.
 
 EXAMPLES
-  $ chabok plugins inspect myplugin
+  $ diva plugins inspect myplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.43/src/commands/plugins/inspect.ts)_
 
-## `chabok plugins install PLUGIN`
+## `diva plugins install PLUGIN`
 
-Installs a plugin into chabok.
+Installs a plugin into diva.
 
 ```
 USAGE
-  $ chabok plugins install PLUGIN... [--json] [-f] [-h] [-s | -v]
+  $ diva plugins install PLUGIN... [--json] [-f] [-h] [-s | -v]
 
 ARGUMENTS
   PLUGIN...  Plugin to install.
@@ -314,41 +312,41 @@ GLOBAL FLAGS
   --json  Format output as json.
 
 DESCRIPTION
-  Installs a plugin into chabok.
+  Installs a plugin into diva.
 
   Uses npm to install plugins.
 
   Installation of a user-installed plugin will override a core plugin.
 
-  Use the CHABOK_NPM_LOG_LEVEL environment variable to set the npm loglevel.
-  Use the CHABOK_NPM_REGISTRY environment variable to set the npm registry.
+  Use the DIVA_NPM_LOG_LEVEL environment variable to set the npm loglevel.
+  Use the DIVA_NPM_REGISTRY environment variable to set the npm registry.
 
 ALIASES
-  $ chabok plugins add
+  $ diva plugins add
 
 EXAMPLES
   Install a plugin from npm registry.
 
-    $ chabok plugins install myplugin
+    $ diva plugins install myplugin
 
   Install a plugin from a github url.
 
-    $ chabok plugins install https://github.com/someuser/someplugin
+    $ diva plugins install https://github.com/someuser/someplugin
 
   Install a plugin from a github slug.
 
-    $ chabok plugins install someuser/someplugin
+    $ diva plugins install someuser/someplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.43/src/commands/plugins/install.ts)_
 
-## `chabok plugins link PATH`
+## `diva plugins link PATH`
 
 Links a plugin into the CLI for development.
 
 ```
 USAGE
-  $ chabok plugins link PATH [-h] [--install] [-v]
+  $ diva plugins link PATH [-h] [--install] [-v]
 
 ARGUMENTS
   PATH  [default: .] path to plugin
@@ -368,18 +366,18 @@ DESCRIPTION
 
 
 EXAMPLES
-  $ chabok plugins link myplugin
+  $ diva plugins link myplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.43/src/commands/plugins/link.ts)_
 
-## `chabok plugins remove [PLUGIN]`
+## `diva plugins remove [PLUGIN]`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ chabok plugins remove [PLUGIN...] [-h] [-v]
+  $ diva plugins remove [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall
@@ -392,20 +390,20 @@ DESCRIPTION
   Removes a plugin from the CLI.
 
 ALIASES
-  $ chabok plugins unlink
-  $ chabok plugins remove
+  $ diva plugins unlink
+  $ diva plugins remove
 
 EXAMPLES
-  $ chabok plugins remove myplugin
+  $ diva plugins remove myplugin
 ```
 
-## `chabok plugins reset`
+## `diva plugins reset`
 
 Remove all user-installed and linked plugins.
 
 ```
 USAGE
-  $ chabok plugins reset [--hard] [--reinstall]
+  $ diva plugins reset [--hard] [--reinstall]
 
 FLAGS
   --hard       Delete node_modules and package manager related files in addition to uninstalling plugins.
@@ -414,13 +412,13 @@ FLAGS
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.43/src/commands/plugins/reset.ts)_
 
-## `chabok plugins uninstall [PLUGIN]`
+## `diva plugins uninstall [PLUGIN]`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ chabok plugins uninstall [PLUGIN...] [-h] [-v]
+  $ diva plugins uninstall [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall
@@ -433,22 +431,22 @@ DESCRIPTION
   Removes a plugin from the CLI.
 
 ALIASES
-  $ chabok plugins unlink
-  $ chabok plugins remove
+  $ diva plugins unlink
+  $ diva plugins remove
 
 EXAMPLES
-  $ chabok plugins uninstall myplugin
+  $ diva plugins uninstall myplugin
 ```
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.43/src/commands/plugins/uninstall.ts)_
 
-## `chabok plugins unlink [PLUGIN]`
+## `diva plugins unlink [PLUGIN]`
 
 Removes a plugin from the CLI.
 
 ```
 USAGE
-  $ chabok plugins unlink [PLUGIN...] [-h] [-v]
+  $ diva plugins unlink [PLUGIN...] [-h] [-v]
 
 ARGUMENTS
   PLUGIN...  plugin to uninstall
@@ -461,20 +459,20 @@ DESCRIPTION
   Removes a plugin from the CLI.
 
 ALIASES
-  $ chabok plugins unlink
-  $ chabok plugins remove
+  $ diva plugins unlink
+  $ diva plugins remove
 
 EXAMPLES
-  $ chabok plugins unlink myplugin
+  $ diva plugins unlink myplugin
 ```
 
-## `chabok plugins update`
+## `diva plugins update`
 
 Update installed plugins.
 
 ```
 USAGE
-  $ chabok plugins update [-h] [-v]
+  $ diva plugins update [-h] [-v]
 
 FLAGS
   -h, --help     Show CLI help.
@@ -486,13 +484,13 @@ DESCRIPTION
 
 _See code: [@oclif/plugin-plugins](https://github.com/oclif/plugin-plugins/blob/v5.4.43/src/commands/plugins/update.ts)_
 
-## `chabok service list`
+## `diva service list`
 
 show account services list
 
 ```
 USAGE
-  $ chabok service list [-h]
+  $ diva service list [-h]
 
 FLAGS
   -h, --help  Show CLI help.
@@ -501,15 +499,15 @@ DESCRIPTION
   show account services list
 ```
 
-_See code: [src/commands/service/list.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/service/list.ts)_
+_See code: [src/commands/service/list.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/list.ts)_
 
-## `chabok service logs`
+## `diva service logs`
 
 read latest logs from service
 
 ```
 USAGE
-  $ chabok service logs [-h] [-s <value>]
+  $ diva service logs [-h] [-s <value>]
 
 FLAGS
   -h, --help             Show CLI help.
@@ -519,15 +517,15 @@ DESCRIPTION
   read latest logs from service
 ```
 
-_See code: [src/commands/service/logs.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/service/logs.ts)_
+_See code: [src/commands/service/logs.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/logs.ts)_
 
-## `chabok service resize`
+## `diva service resize`
 
 resize a service
 
 ```
 USAGE
-  $ chabok service resize [-h] [-s <value>] [-r <value>] [-c <value>] [-d <value>]
+  $ diva service resize [-h] [-s <value>] [-r <value>] [-c <value>] [-d <value>]
 
 FLAGS
   -c, --cpu=<value>      CPU
@@ -540,15 +538,15 @@ DESCRIPTION
   resize a service
 ```
 
-_See code: [src/commands/service/resize.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/service/resize.ts)_
+_See code: [src/commands/service/resize.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/resize.ts)_
 
-## `chabok service restart`
+## `diva service restart`
 
 restart a service
 
 ```
 USAGE
-  $ chabok service restart [-h] [-s <value>]
+  $ diva service restart [-h] [-s <value>]
 
 FLAGS
   -h, --help             Show CLI help.
@@ -558,15 +556,15 @@ DESCRIPTION
   restart a service
 ```
 
-_See code: [src/commands/service/restart.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/service/restart.ts)_
+_See code: [src/commands/service/restart.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/restart.ts)_
 
-## `chabok service start`
+## `diva service start`
 
 start a service
 
 ```
 USAGE
-  $ chabok service start [-h] [-s <value>]
+  $ diva service start [-h] [-s <value>]
 
 FLAGS
   -h, --help             Show CLI help.
@@ -576,15 +574,15 @@ DESCRIPTION
   start a service
 ```
 
-_See code: [src/commands/service/start.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/service/start.ts)_
+_See code: [src/commands/service/start.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/start.ts)_
 
-## `chabok service stop`
+## `diva service stop`
 
 stop a service
 
 ```
 USAGE
-  $ chabok service stop [-h] [-s <value>]
+  $ diva service stop [-h] [-s <value>]
 
 FLAGS
   -h, --help             Show CLI help.
@@ -594,13 +592,13 @@ DESCRIPTION
   stop a service
 ```
 
-_See code: [src/commands/service/stop.ts](https://github.com/chabokan/cli/blob/v0.8.10/src/commands/service/stop.ts)_
+_See code: [src/commands/service/stop.ts](https://github.com/cloudivanet/cli/blob/v0.8.10/src/commands/service/stop.ts)_
 
-## `chabok version`
+## `diva version`
 
 ```
 USAGE
-  $ chabok version [--json] [--verbose]
+  $ diva version [--json] [--verbose]
 
 FLAGS
   --verbose  Show additional information about the CLI.

@@ -6,7 +6,7 @@ import {isObject} from "../helper.js";
 import Command from "../base.js"
 
 export default class Login extends Command {
-  static description = 'login to hub.chabokan.net account';
+  static description = 'login to account';
 
   static flags = {
     ...Command.flags,

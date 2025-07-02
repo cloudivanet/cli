@@ -89,6 +89,7 @@ export const loadIgnoreFile = (ignoreInstance: Ignore, ignoreFilePath: string, p
 }
 
 export function addIgnorePatterns(ignoreInstance: Ignore, projectPath: string, dir: string) {
+  const divaignorePath = join(projectPath, dir, '.divaignore')
   const chabokignorePath = join(projectPath, dir, '.chabokignore')
   const dockerignorePath = join(projectPath, dir, '.dockerignore')
   const gitignorePath = join(projectPath, dir, '.gitignore')
@@ -103,7 +104,7 @@ export function addIgnorePatterns(ignoreInstance: Ignore, projectPath: string, d
 }
 
 export const checkUpdate = async (version: any) => {
-  const name = "@chabokan.net/cli"
+  const name = "@cloudiva.net/cli"
   const {version: latestVersion} = await pkgJson(name);
 
   // check if local package version is less than the remote version

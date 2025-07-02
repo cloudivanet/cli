@@ -17,7 +17,7 @@ const MAX_SOURCE_SIZE = 100 * 1024 * 1024; // 100 MB
 
 export default class Deploy extends Command {
   static description =
-    "this command help you build and deploy your service to chabokan in easy way.";
+    "this command help you build and deploy your service to cloudiva in easy way.";
 
   static flags = {
     ...Command.flags,
@@ -40,10 +40,10 @@ export default class Deploy extends Command {
       chabok_file =
         JSON.parse(
           fs
-            .readFileSync(path.join(project_path, "chabok.json"))
+            .readFileSync(path.join(project_path, "diva.json"))
             .toString("utf-8")
         ) || {};
-      cli.log("Reading Config from chabok.json ...");
+      cli.log("Reading Config from diva.json ...");
     } catch {}
 
     if (chabok_file.service) {
@@ -118,7 +118,7 @@ export default class Deploy extends Command {
       console.log(`ignoring ${f}`);
       return false;
     };
-    const tmpDir = path.join(os.tmpdir(), "/chabok-cli");
+    const tmpDir = path.join(os.tmpdir(), "/diva-cli");
     const archivePath = path.join(tmpDir, `${Date.now()}.tar.gz`);
     fs.ensureDirSync(tmpDir);
 
